@@ -11,14 +11,72 @@
     10px untuk blur */
 }
 p{
-    color:rgb(147, 140, 141);
+    color:rgba(150, 215, 255, 0.663);
     font-style: italic;
-    background: pink; 
+    background: white; 
 }
 
 .section {
     margin-bottom: 20px;
-    */ ini untuk jarak batas bawah dengan next section*/
-    box-shadow: 3px 5px 10px pink; 
+    /* ini untuk jarak batas bawah dengan next section*/
+    box-shadow: 3px 5px 10px rgb(252, 247, 248); 
 
+}
+
+/* mengatur tampilan latar belakang halaman */
+
+body{
+    background-color: hsla(197, 100%, 79%, 0.59);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px;
+    text-align: center;
+}
+
+.foto-profil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid purple;
+}
+
+.nama {
+    color: black;
+    margin: 15px 0 5px 0;
+}
+
+.state {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.bio {
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contact {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(131, 234, 255);
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
 }
